@@ -15,7 +15,7 @@ args = vars(ap.parse_args())
 # cv2 operation to load image - not needed for final product
 # orig = cv2.imread(args["image"])
 
-# convert input using keras' helper, resize image to 224x224, finally get image as np array
+# convert input using keras' helper, resize image to 224x224, finally get image as np array from pil
 
 image = image_utils.load_img(args["image"], target_size=(224, 224))
 image = image_utils.img_to_array(image)
