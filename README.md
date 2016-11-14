@@ -22,6 +22,4 @@ You could choose to implement your own models too. I didn't have time to train o
 The first time you run the code, it will download the VGG16 model weights (~500 mb). Subsequent testing will be much faster since models are onboard. 
 
 #### Flask App:
-T
-
-The a
+The app is rather basic with really one route defined i.e. upload. It uses the file uploaded as part of a subprocess that executes a command line operation
